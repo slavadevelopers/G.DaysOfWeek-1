@@ -6,7 +6,7 @@ int main()
 {
     short int k, result;
     cin >> k;
-    result =k - k/7 * 7;
+    result =(k - 1)%7 + 1;
     cout << result << endl;
     return 0;
 }
